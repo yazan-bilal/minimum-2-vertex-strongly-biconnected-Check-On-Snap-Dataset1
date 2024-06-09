@@ -29,3 +29,13 @@ Step3 Testing whether a directed graph is 2-vertex strongly biconnected or not i
 6.Stanford Large Network Dataset Collection, https://snap.stanford.edu/data/index.html
 
 # Group
+  - آحمد عدنان يوسف 6038
+  - جوليا عمار الخطيب 5603
+  - ساره اصف اسكيجه 5776
+  - ولاء علي مرهج 5659
+  - يارا حبيب محمد 5765
+  - يارا عادل رزوق 6204
+  - يارا عمار ميا 5853
+  - ياسمين نبهان علي 6382
+  - يزن حسن بلال 6034
+  - يمامه أسامه مصطفى 5605 
