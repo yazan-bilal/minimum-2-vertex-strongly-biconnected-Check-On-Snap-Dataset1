@@ -5,6 +5,7 @@ import data_structures.graph.Vertex
 import data_structures.graph.VertexState
 import java.util.*
 
+// written by Yazan Bilal
 fun <T> Graph<T>.cmg_init(){
     dfsCounter = 1
     for (v in vertexes()){

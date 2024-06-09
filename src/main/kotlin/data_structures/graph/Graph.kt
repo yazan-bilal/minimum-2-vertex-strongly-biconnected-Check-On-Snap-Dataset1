@@ -3,6 +3,17 @@ package data_structures.graph
 import data_structures.linked_list.LinkedList
 import java.util.*
 
+/*
+- createVertex written by Yara Mohammad
+- addVertex written by Yara Mohammad
+- addDirectedEdge written by Yasmin
+- edges written by Yasmin
+- getVertexByData written Yara Mohammad
+- removeVertex  written by Yazan Bilal
+- removeEdge written by Yara Razok
+- toUndirectedGraph written by Julia Alkhateb
+- convertToDirectedGraph  written by Yasmin
+ */
 class Graph<T>:GraphInterface<T>
 {
     var type : GraphType = GraphType.Directed

@@ -1,6 +1,6 @@
 package data_structures.linked_list
 
-
+// written by Ahmad Yousef
 class LinkedList<T> : MutableIterable<T>, Collection<T>, MutableCollection<T> {
     var head: ListNode<T>? = null
     var tail: ListNode<T>? = null

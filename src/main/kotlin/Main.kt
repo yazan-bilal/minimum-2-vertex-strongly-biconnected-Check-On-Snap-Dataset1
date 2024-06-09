@@ -5,7 +5,7 @@ import algorithms.isBiconnectd
 import data_structures.graph.Graph
 import util.*
 import java.io.File
-
+// written by Yazan Bilal
 fun main(args: Array<String>) {
     val file = File(WIKI_VOTE_PATH)
     val lines = file.readLines()

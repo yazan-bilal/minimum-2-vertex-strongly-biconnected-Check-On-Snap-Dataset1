@@ -2,6 +2,7 @@ package algorithms
 
 import data_structures.graph.Graph
 
+// written by Yasmin
 fun Graph<Int>.extractToGraph(data:List<String>){
     for (line in data) {
         val numbers = getNumbers(line)
@@ -11,7 +12,7 @@ fun Graph<Int>.extractToGraph(data:List<String>){
         if (!dataExist(numbers[1])){
             createVertex(numbers[1])
         }
-        addDirectedEdge(getVertexByData(numbers[0])!!,getVertexByData(numbers[1])!!,weight = null)
+        addDirectedEdge(getVertexByData(numbers[0])!!,getVertexByData(numbers[1])!!)
     }
 }
 

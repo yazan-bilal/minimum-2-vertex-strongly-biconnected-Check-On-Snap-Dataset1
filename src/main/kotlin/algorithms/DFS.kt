@@ -6,7 +6,8 @@ import data_structures.graph.Vertex
 import data_structures.graph.VertexState
 import data_structures.linked_list.LinkedList
 
-
+// DFSDirected written by Yamama
+// DfSUndirected written by yara mia
 fun <T> Graph<T>.DFS(){
     if (type == GraphType.Directed){
         DFSDirected()

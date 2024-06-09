@@ -1,4 +1,6 @@
 package data_structures.linked_list
+
+// written by Ahmad Yousef
 class ListNode<T>(
     var value:T,
     var next: ListNode<T>? = null,

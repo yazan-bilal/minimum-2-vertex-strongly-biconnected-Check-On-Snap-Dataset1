@@ -4,7 +4,7 @@ import data_structures.graph.Graph
 import data_structures.graph.GraphType
 import data_structures.linked_list.LinkedList
 
-
+// written by Sara
 fun <T> Graph<T>.isBiconnectd():Boolean{
     DFS()
     val directedgraph = this.convertToDirectedGraph()
@@ -12,6 +12,7 @@ fun <T> Graph<T>.isBiconnectd():Boolean{
     return true
 }
 
+// written by Ahmad Yousef
 fun <T> Graph<T>.chainDFS(
     startVertex: Int
 ): List<Int> {

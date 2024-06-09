@@ -1,5 +1,6 @@
 package data_structures.graph
 
+// written by Yara Mia
 data class Vertex<T>(
     val index:Int ,
     val data:T,

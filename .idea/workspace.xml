@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e00d02-e72c-4280-b0dc-faeb438ac8b6" name="Changes" comment="base commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a0e00d02-e72c-4280-b0dc-faeb438ac8b6" name="Changes" comment="fix #1">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Cheriyan_Mehlhorn_Gabow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Cheriyan_Mehlhorn_Gabow.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFSv2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFS.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Jens_Schmidt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Jens_Schmidt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/Queue.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/dataset_extraction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/dataset_extraction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Edge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Edge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Graph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Graph.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/GraphInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/GraphInterface.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Vertex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Vertex.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/consts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/util/consts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717929182452</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix #1">
+      <created>1717938471586</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717938471586</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,7 +134,8 @@
     <MESSAGE value="forth data set" />
     <MESSAGE value="fifth data set" />
     <MESSAGE value="base commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="base commit" />
+    <MESSAGE value="fix #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix #1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

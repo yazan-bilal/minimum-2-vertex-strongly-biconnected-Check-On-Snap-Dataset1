@@ -1,7 +1,7 @@
 package data_structures.graph
 
 
-// yazan bilal
+// written by Julia Alkhateb
 data class Edge<T> (
     val source: Vertex<T>,
     val destination:Vertex<T> ,
