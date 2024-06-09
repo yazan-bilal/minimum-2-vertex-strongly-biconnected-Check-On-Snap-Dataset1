@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e00d02-e72c-4280-b0dc-faeb438ac8b6" name="Changes" comment="" />
+    <list default="true" id="a0e00d02-e72c-4280-b0dc-faeb438ac8b6" name="Changes" comment="fifth data set">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Cheriyan_Mehlhorn_Gabow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFSv2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Jens_Schmidt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/dataset_extraction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Edge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Graph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/GraphInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Vertex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/consts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2gbTiE3Za9p7DzjqzCpT3CzoDjf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,12 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yazan/IdeaProjects/minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset/src/main/kotlin/algorithms&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yazan\IdeaProjects\minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset\src\main\kotlin\algorithms" />
+      <recent name="C:\Users\yazan\IdeaProjects\minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset\src\main\kotlin\data_structures\graph" />
+      <recent name="C:\Users\yazan\IdeaProjects\minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset\src\main\kotlin\data_structures" />
+      <recent name="C:\Users\yazan\IdeaProjects\minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset\src\main\kotlin\data_sets" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="data_structures" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,6 +70,57 @@
       <option name="presentableId" value="Default" />
       <updated>1715965407681</updated>
     </task>
+    <task id="LOCAL-00001" summary="first data set">
+      <created>1717928613457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717928613457</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second data set">
+      <created>1717928651717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717928651717</updated>
+    </task>
+    <task id="LOCAL-00003" summary="third data set">
+      <created>1717928673508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717928673508</updated>
+    </task>
+    <task id="LOCAL-00004" summary="forth data set">
+      <created>1717928711919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717928711919</updated>
+    </task>
+    <task id="LOCAL-00005" summary="forth data set">
+      <created>1717928750456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717928750456</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fifth data set">
+      <created>1717928801666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717928801666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first data set" />
+    <MESSAGE value="second data set" />
+    <MESSAGE value="third data set" />
+    <MESSAGE value="forth data set" />
+    <MESSAGE value="fifth data set" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth data set" />
   </component>
 </project>
