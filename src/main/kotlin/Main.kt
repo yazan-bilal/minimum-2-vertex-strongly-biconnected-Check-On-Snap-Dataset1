@@ -1,4 +1,7 @@
 import algorithms.extractToGraph
+import algorithms.graph_algorithms.cheriyanMehlhornGabow
+import algorithms.graph_algorithms.largestStronglyConnectedGraph
+import algorithms.isBiconnectd
 import data_structures.graph.Graph
 import util.*
 import java.io.File
@@ -8,20 +11,21 @@ fun main(args: Array<String>) {
     val lines = file.readLines()
     val graph = Graph<Int>()
     graph.extractToGraph(lines)
-    println("number of nodes ${graph.vCount} number of edges ${graph.eCount}")
-
-
-    val file2 = File(WIKI_VOTE_PATH)
-    val lines2 = file.readLines()
-    val graph2 = Graph<Int>()
-    graph.extractToGraph(lines)
-    println("number of nodes ${graph2.vCount} number of edges ${graph2.eCount}")
-
-
+    graph.cheriyanMehlhornGabow()
+    var Scc = graph.largestStronglyConnectedGraph()
+    graph.is_minimum_2_vertexs_strongly_connected()
 }
 
+fun <T> Graph<T>. is_minimum_2_vertexs_strongly_connected(): Boolean {
+    for(v in this.vertexes()){
+        this.removeVertex(v)
+        if(!this.isBiconnectd()){
+            return false
+        }
+    }
+    return true
+}
 
-// extracting the dataset into a graph
 
 
 

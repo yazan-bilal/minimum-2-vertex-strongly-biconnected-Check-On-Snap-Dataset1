@@ -1,4 +1,4 @@
-package algorithms.graph_algorithms
+package algorithms
 
 import data_structures.graph.Graph
 import data_structures.graph.GraphType

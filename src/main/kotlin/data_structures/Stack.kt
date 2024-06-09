@@ -1,5 +1,7 @@
 package data_structures
 
+
+// written by Sara
 class  Stack<T:Any> {
     val stack:ArrayList<T> = ArrayList()
     fun push(value:T){

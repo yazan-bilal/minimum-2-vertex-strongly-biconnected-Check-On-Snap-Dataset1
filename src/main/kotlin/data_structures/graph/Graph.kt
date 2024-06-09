@@ -27,8 +27,10 @@ class Graph<T>:GraphInterface<T>
         val vertex = Vertex(adjacencies.count(),data) 
         adjacencies[vertex] = LinkedList()
         vCount = adjacencies.count()
-        return vertex 
+        return vertex
+
     }
+
 
     fun addVertex(vertex:Vertex<T>):Vertex<T>{
         val v = vertex.copy(index = adjacencies.count())
@@ -36,33 +38,18 @@ class Graph<T>:GraphInterface<T>
         return v
     }
 
-    override fun addDirectedEdge(source: Vertex<T>, destination: Vertex<T>, weight: Double?) {
-        val edge = Edge<T>(source,destination, weight)
+    override fun addDirectedEdge(source: Vertex<T>, destination: Vertex<T>) {
+        val edge = Edge<T>(source,destination)
+        adjacencies[source] = adjacencies[source] ?: LinkedList()
         adjacencies[source]?.add(edge)
         eCount++
 
     }
 
-    override fun addUndirectedEdge(source: Vertex<T>, destination: Vertex<T>, weight: Double?) {
-        addDirectedEdge(source,destination,weight)
-        addDirectedEdge(destination,source,weight)
-    }
-
-    override fun add(edge: EdgeType, source: Vertex<T>, destination: Vertex<T>, weight: Double?) {
-        when(edge){
-            EdgeType.DIRECTED -> addDirectedEdge(source,destination,weight)
-            EdgeType.UNDIRECTED-> addDirectedEdge(source,destination,weight)
-        }
-    }
 
     override fun edges(source: Vertex<T>) = adjacencies[source] ?: LinkedList<Edge<T>>( )
     fun vertexes() = adjacencies.keys
 
-    override fun weight(source: Vertex<T>, destination: Vertex<T>): Double? {
-        return edges(source).firstOrNull {
-            it.destination == destination
-        }?.weight
-    }
 
     fun getVertexByData(data: T):Vertex<T>? {
         for ((vertex,edges) in adjacencies){
@@ -97,7 +84,7 @@ class Graph<T>:GraphInterface<T>
                 val new = edge.copy(source = edge.destination,destination = edge.source)
                 if(adjacencies[new.source]?.contains(new)!!) {
                 }else {
-                    addDirectedEdge(new.source,new.destination,new.weight)
+                    addDirectedEdge(new.source,new.destination)
                 }
             }
         }
@@ -109,8 +96,39 @@ class Graph<T>:GraphInterface<T>
         type = GraphType.Undirected
     }
 
-    fun toDirectedGraphJS(){
-        
+    fun convertToDirectedGraph(
+    ): Graph<T> {
+        val vertices = adjacencies.size
+        val directedAdjList = Array(vertices) { LinkedList<Int>() }
+        val visited = BooleanArray(vertices)
+        val dfsParent = IntArray(vertices) { -1 }
+        val dfsNumbers = IntArray(vertices) { -1 }
+        val hasBE = IntArray(vertices) { 0 }
+        var dfsCounter = 0
+
+        fun dfs(v: Vertex<T>) {
+            visited[v.index] = true
+            dfsNumbers[v.index] = dfsCounter++
+            var adjacencies = adjacencies[v]!!
+            for (neighbor in adjacencies) {
+                if (!visited[neighbor.destination.index]) {
+                    dfsParent[neighbor.destination.index] = v.index
+                    directedAdjList[v.index].add(neighbor.destination.index) // Tree edge
+                    dfs(neighbor.destination)
+                } else if (dfsParent[v.index] != neighbor.destination.index && dfsNumbers[neighbor.destination.index] < dfsNumbers[v.index]) {
+                    directedAdjList[v.index].add(neighbor.destination.index) // Back edge
+                    hasBE[v.index]++
+                }
+            }
+        }
+
+        for (i in adjacencies.keys.indices) {
+            if (!visited[i]) {
+                dfs(vertexes().elementAt(i))
+            }
+        }
+
+        return this
     }
 }
 

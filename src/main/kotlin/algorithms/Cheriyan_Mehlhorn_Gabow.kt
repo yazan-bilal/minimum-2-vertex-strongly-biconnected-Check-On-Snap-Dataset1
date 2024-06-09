@@ -31,7 +31,7 @@ fun <T> Graph<T>.depth_first_search_mod(vertex: Vertex<T>){
     dfsCounter++
     oStack.push(vertex)
     rStack.push(vertex)
-    for (edge in edges(vertex)){
+    edges(vertex).forEach {edge ->
         if(edge.destination.state == VertexState.NEW){
             depth_first_search_mod(edge.destination)
         }else {
@@ -87,7 +87,7 @@ fun <T> Graph<T>.largestStronglyConnectedGraph():Graph<T>{
             if (v in subGraph.vertexes()){
                 for (edge in  edges(v)){
                     if (edge.destination  in subGraph.vertexes()){
-                        subGraph.addDirectedEdge(edge.source , edge.destination ,edge.weight)
+                        subGraph.addDirectedEdge(edge.source , edge.destination)
                     }
                 }
             }

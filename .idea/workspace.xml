@@ -4,22 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e00d02-e72c-4280-b0dc-faeb438ac8b6" name="Changes" comment="fifth data set">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Cheriyan_Mehlhorn_Gabow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFSv2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Jens_Schmidt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/dataset_extraction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Queue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Edge.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/GraphInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Vertex.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/consts.kt" afterDir="false" />
+    <list default="true" id="a0e00d02-e72c-4280-b0dc-faeb438ac8b6" name="Changes" comment="base commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Cheriyan_Mehlhorn_Gabow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Cheriyan_Mehlhorn_Gabow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFSv2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DFS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Jens_Schmidt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Jens_Schmidt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/Queue.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Edge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Edge.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Graph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Graph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/GraphInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/GraphInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Vertex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph/Vertex.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/consts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/util/consts.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yazan/IdeaProjects/minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset/src/main/kotlin/algorithms&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/yazan/IdeaProjects/minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset/src/main/kotlin/algorithms",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yazan\IdeaProjects\minimum-2-vertex-strongly-biconnected-Check-On-Snap-Dataset\src\main\kotlin\algorithms" />
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717928801666</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="base commit">
+      <created>1717929182452</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717929182452</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +131,11 @@
     <MESSAGE value="third data set" />
     <MESSAGE value="forth data set" />
     <MESSAGE value="fifth data set" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth data set" />
+    <MESSAGE value="base commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="base commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

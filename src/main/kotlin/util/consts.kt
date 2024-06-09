@@ -13,7 +13,7 @@ const val EMAIL_EUALL_NODES = 265214
 const val P2P_GNUTELLA_04_NODES = 10876
 const val SLASHDOT_0811_NODES = 77360
 const val SLASHDOT_0902_NODES = 82168
-const val WIKI_VOTE_NODES =   8297 // 7115 this is wrong fucken bitches the number of nodes is right but those bastereds started from id i don't know what fuck.
+const val WIKI_VOTE_NODES =   8297 
 
 
 const val AMAZON_0302_EDGES  = 1234877
