@@ -30,7 +30,7 @@ Step3 Testing whether a directed graph is 2-vertex strongly biconnected or not i
 
 # Group
   - آحمد عدنان يوسف 6038
-  - جوليا عمار الخطيب 5603
+  - جوليا وائل الخطيب 5603
   - ساره اصف اسكيجه 5776
   - ولاء علي مرهج 5659
   - يارا حبيب محمد 5765
